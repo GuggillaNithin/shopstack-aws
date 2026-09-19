@@ -1,0 +1,19 @@
+# Node / General
+node_modules
+dist
+.env
+.DS_Store
+
+# Frontend
+.next
+out
+
+# Prisma / DB
+prisma/migrations
+*.db
+*.sqlite
+
+# Secrets
+secrets/
+passwords.txt
+*.pem

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-brand-green: #0a4a3c;
+  --color-brand-light-green: #e6f0ee;
+  --color-ink: #111111;
+  --color-stone: #666666;
+  --color-mute: #888888;
+  --color-canvas: #ffffff;
+  --color-canvas-alt: #f9f9f9;
+  --color-soft-cloud: #f3f4f6;
+  --color-hairline: #e5e7eb;
+  --color-hairline-soft: #f3f4f6;
+  --color-accent-teal: #14b8a6;
+  --color-sale: #ef4444;
+  --color-sale-deep: #dc2626;
+  --color-stone: #9e9ea0;
+  --color-sale: #d30005;
+  --color-sale-deep: #780700;
+  --color-success: #007d48;
+  --color-success-bright: #1eaa52;
+  --color-info: #1151ff;
+  --color-info-deep: #0034e3;
+
+  --color-accent-pink: #ed1aa0;
+  --color-accent-pink-soft: #ffb0dd;
+  --color-accent-purple-soft: #beaffd;
+  --color-accent-purple-pale: #d6d1ff;
+  --color-accent-teal: #0a7281;
+  --color-accent-pink-deep: #4c012d;
+
+  --font-display: "Bebas Neue", sans-serif;
+  --font-sans: "Inter", sans-serif;
+
+  --spacing-xxs: 2px;
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 12px;
+  --spacing-lg: 18px;
+  --spacing-xl: 24px;
+  --spacing-xxl: 30px;
+  --spacing-section: 48px;
+
+  --radius-none: 0px;
+  --radius-sm: 18px;
+  --radius-md: 24px;
+  --radius-lg: 30px;
+  --radius-full: 9999px;
+}
+
+@utility text-display-campaign {
+  font-family: var(--font-display);
+  font-size: 96px;
+  line-height: 0.9;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: -0.5px;
+}
+
+@utility text-heading-xl { font-family: var(--font-sans); font-size: 32px; font-weight: 500; line-height: 1.2; }
+@utility text-heading-lg { font-family: var(--font-sans); font-size: 24px; font-weight: 500; line-height: 1.2; }
+@utility text-heading-md { font-family: var(--font-sans); font-size: 16px; font-weight: 500; line-height: 1.75; }
+@utility text-body-md { font-family: var(--font-sans); font-size: 16px; font-weight: 400; line-height: 1.5; }
+@utility text-body-strong { font-family: var(--font-sans); font-size: 16px; font-weight: 500; line-height: 1.5; }
+@utility text-button-lg { font-family: var(--font-sans); font-size: 24px; font-weight: 500; line-height: 1.2; }
+@utility text-button-md { font-family: var(--font-sans); font-size: 16px; font-weight: 500; line-height: 1.5; }
+@utility text-button-sm { font-family: var(--font-sans); font-size: 14px; font-weight: 500; line-height: 1.5; }
+@utility text-link-md { font-family: var(--font-sans); font-size: 16px; font-weight: 500; line-height: 1.75; text-decoration: underline; }
+@utility text-caption-md { font-family: var(--font-sans); font-size: 14px; font-weight: 500; line-height: 1.5; }
+@utility text-caption-sm { font-family: var(--font-sans); font-size: 12px; font-weight: 500; line-height: 1.5; }
+@utility text-utility-xs { font-family: var(--font-sans); font-size: 9px; font-weight: 500; line-height: 1.75; }
+
+body {
+  background-color: var(--color-canvas);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
